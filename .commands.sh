@@ -8,8 +8,9 @@ source /usr/share/autojump/autojump.bash
 
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 alias vm='vim -p $(fzf -m)'
-alias dot='git --git-dir="$HOME/.config/dotgit/repo" --work-tree="$HOME"' 
+#alias dot='git --git-dir="$HOME/.config/dotgit/repo" --work-tree="$HOME"' 
 
+alias dot='PATH="$HOME/.config/dotgit/bin:$PATH" git --git-dir="$HOME/.config/dotgit/repo" --work-tree="$HOME"'
 
 # add support for ctrl+o to open selected file in VS Code
 ##export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
@@ -93,4 +94,3 @@ fi
 cd "$(autojump -s | sed '/_____/Q;s/^[0-9,.:]*\s*//' |  fzf --height 40% --reverse --inline-info)" 
 }
 
-alias dot2='PATH="$HOME/.config/dotgit/bin:$PATH" git --git-dir="$HOME/.config/dotgit/repo" --work-tree="$HOME"'
