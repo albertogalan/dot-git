@@ -1,6 +1,0 @@
-pane	agalan	1	:devops	0	:-	1	:/data/src/luc/docs	0	bash	:
-pane	agalan	1	:devops	0	:-	2	:/data/src/luc/docs	1	ssh	:ssh lucpoller02
-pane	agalan	2	:ssh	1	:*	1	:/data/src/luc	1	ssh	:ssh luc_centreon
-window	agalan	1	0	:-	a3ae,94x82,0,0[94x41,0,0,0,94x40,0,42,6]
-window	agalan	2	1	:*	b8a5,94x82,0,0,8
-state	agalan	

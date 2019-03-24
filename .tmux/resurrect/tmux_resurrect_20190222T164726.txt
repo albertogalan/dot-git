@@ -1,8 +1,0 @@
-pane	agalan	1	:devops	1	:*	1	:/data/src/luc/docs	0	bash	:
-pane	agalan	1	:devops	1	:*	2	:/data/src/luc/docs	1	ssh	:ssh lucpoller02
-pane	agalan	2	:ssh	0	:-	1	:/data/src/luc	1	ssh	:ssh luc_centreon
-pane	agalan	3	:vim	0	:	1	:/data/src/luc/mibs/6.3mib/6.3mib/snmpv2	1	vim	:vim NS-TRAPS.mib
-window	agalan	1	1	:*	9cc2,119x82,0,0[119x41,0,0,0,119x40,0,42,6]
-window	agalan	2	0	:-	bf45,119x82,0,0,8
-window	agalan	3	0	:	bf46,119x82,0,0,9
-state	agalan	

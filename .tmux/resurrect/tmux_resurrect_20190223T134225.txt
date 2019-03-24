@@ -1,9 +1,0 @@
-pane	agalan	1	:devops	0	:	1	:/data/src/devops/roles	1	bash	:
-pane	agalan	2	:programing	0	:-	1	:/data/src/luc	0	man	:man nping
-pane	agalan	2	:programing	0	:-	2	:/home/agalan/.ssh	0	ssh	:ssh lucpoller02
-pane	agalan	2	:programing	0	:-	3	:/data/src/luc	1	ssh	:ssh lucpoller02
-pane	agalan	3	:op1	1	:*	1	:/data/src/luc/mibs/6.3mib/6.3mib/snmpv2	1	vim	:vim NS-POLICY.mib
-window	agalan	1	0	:	cc5d,61x59,0,0,0
-window	agalan	2	0	:-	c6ce,78x59,0,0[78x14,0,0,1,78x14,0,15,7,78x29,0,30,6]
-window	agalan	3	1	:*	d01f,78x59,0,0,2
-state	agalan	

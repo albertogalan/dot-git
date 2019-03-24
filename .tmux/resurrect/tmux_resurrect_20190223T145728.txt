@@ -1,6 +1,0 @@
-pane	agalan	1	:programing	0	:-	1	:/data/src/luc	1	bash	:
-pane	agalan	2	:op1	1	:*	1	:/home/agalan	0	vim	:vim .Xresources
-pane	agalan	2	:op1	1	:*	2	:/home/agalan	1	sudo	:sudo vim /etc/fonts/fonts.conf
-window	agalan	1	0	:-	ce5e,65x59,0,0,1
-window	agalan	2	1	:*	522f,97x59,0,0[97x29,0,0,2,97x29,0,30,8]
-state	agalan	

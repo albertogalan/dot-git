@@ -1,7 +1,0 @@
-pane	agalan	1	:devops	0	:-	1	:/data/src/luc/docs	1	vim	:vim -p ./snmp/faketrap.sh ./snmp/traps.txt ./snmp/sendtest.sh ./snmp/snmptrapd.conf ./snmp/snmp-info.txt
-pane	agalan	1	:devops	0	:-	2	:/data/src/luc/docs	0	bash	:
-pane	agalan	2	:ssh	1	:*	1	:/home/agalan/.ssh	1	ssh	:ssh lucpoller02
-pane	agalan	2	:ssh	1	:*	2	:/home/agalan/.ssh	0	bash	:
-window	agalan	1	0	:-	c571,141x82,0,0[141x41,0,0,0,141x40,0,42,6]
-window	agalan	2	1	:*	c580,141x82,0,0[141x41,0,0,7,141x40,0,42,8]
-state	agalan	
