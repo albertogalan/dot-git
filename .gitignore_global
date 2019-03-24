@@ -1,0 +1,9 @@
+# ignore all logs
+*.logs
+*.swp
+
+tmp
+test*
+old*
+old/*
+*/node_modules/*

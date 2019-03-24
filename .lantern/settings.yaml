@@ -1,0 +1,12 @@
+addr: 127.0.0.1:33485
+autoLaunch: true
+autoReport: true
+lang: en-US
+localHTTPToken: 5307eac78a656feb7b4fc705bac5bdb5
+pacURL: ""
+proxyAll: false
+socksAddr: 127.0.0.1:29828
+systemProxy: true
+uiAddr: localhost:8001
+userID: 79477506
+userToken: ji4DQy3iOqKIWhw2G4voDD6PTl_fwwl_iomWyRYjSWakMStOCfUQug

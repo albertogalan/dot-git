@@ -1,0 +1,82 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 431,
+               "width": 732,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^Terminal$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-b573ef5b\\-559c\\-441f\\-a648\\-6e43ff459886$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 431,
+               "width": 732,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^Terminal$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-570e7dde\\-6fd7\\-4e0d\\-8378\\-94395b41efb6$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 768,
+       "width": 622,
+       "x": 0,
+       "y": 0
+    },
+    "name": "i3: Layout saving in i3 - Mozilla Firefox",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Firefox$",
+       // "instance": "^Navigator$",
+       // "title": "^i3\\:\\ Layout\\ saving\\ in\\ i3\\ \\-\\ Mozilla\\ Firefox$",
+       // "transient_for": "^$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+

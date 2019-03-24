@@ -1,0 +1,8 @@
+[user]
+	email = info@albertogalan.com
+	name = Alberto Galan
+[commit]
+	template = /home/agalan/.git-commit-template
+[core]
+	editor = /usr/bin/vim
+	excludesfile = /home/agalan/.gitignore_global

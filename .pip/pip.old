@@ -1,0 +1,5 @@
+[global]
+use-mirrors=true
+mirrors=https://mirrors.ustc.edu.cn
+index-url=https://mirrors.ustc.edu.cn/pypi/web/simple
+

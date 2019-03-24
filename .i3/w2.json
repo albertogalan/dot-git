@@ -1,0 +1,25 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 333,
+       "width": 552,
+       "x": 1376,
+       "y": 736
+    },
+    "name": "微软 Bing 搜索 - 国内版 - Chromium",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Chromium\\-browser$"
+       // "instance": "^chromium\\-browser$",
+       // "title": "^微软\\ Bing\\ 搜索\\ \\-\\ 国内版\\ \\-\\ Chromium$",
+       // "transient_for": "^$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
