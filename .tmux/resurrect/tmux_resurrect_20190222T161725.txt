@@ -1,0 +1,8 @@
+pane	agalan	1	:devops	0	:	1	:/data/src/luc/docs	0	bash	:
+pane	agalan	1	:devops	0	:	2	:/data/src/luc/docs	1	ssh	:ssh lucpoller02
+pane	agalan	2	:ssh	0	:-	1	:/data/src/luc	1	ssh	:ssh luc_centreon
+pane	agalan	3	:vim	1	:*	1	:/data/src/luc/mibs/6.3mib/6.3mib/snmpv2	1	vim	:vim NS-SMI.mib
+window	agalan	1	0	:	a3ae,94x82,0,0[94x41,0,0,0,94x40,0,42,6]
+window	agalan	2	0	:-	b8a5,94x82,0,0,8
+window	agalan	3	1	:*	b8a6,94x82,0,0,9
+state	agalan	

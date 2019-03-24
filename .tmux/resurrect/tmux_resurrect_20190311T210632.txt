@@ -1,0 +1,23 @@
+pane	agalan	1	:devops	1	:*	1	:/data/src/odoo_data_introduction/src	1	bash	:/home/agalan/.lantern/bin/lantern
+/bin/bash ./run_ssh.sh
+vim run_ssh.sh
+pane	agalan	1	:devops	1	:*	2	:/data/src/odoo_data_introduction/src	0	bash	:/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+/bin/bash ./run_ssh.sh
+pane	agalan	2	:programing	0	:-	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#	2	:/home/agalan	0	bash	:
+window	agalan	1	1	:*	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:-	b57e,106x61,0,0,1
+window	agalan	3	0	:	b57f,106x61,0,0,2
+window	agalan	4	0	:	b580,106x61,0,0,3
+window	agalan	5	0	:#	7fd7,106x61,0,0[106x40,0,0,4,106x20,0,41,5]
+state	agalan	

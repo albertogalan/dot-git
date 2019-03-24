@@ -1,0 +1,10 @@
+pane	agalan	1	:devops	1	:*	1	:/data/src/tornae/Marketing/Communication/exhibitions/2019chinaproductronica	0	bash	:/home/agalan/.lantern/bin/lantern
+pane	agalan	1	:devops	1	:*	2	:/data/projects/17012-market-research/grandtop/lists	1	bash	:/bin/bash ./search-word-list.sh ./2019productronica.md pdf
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#-	1	:/data/projects	1	bash	:
+window	agalan	1	1	:*	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:#-	b260,80x24,0,0,3
+state	agalan	

@@ -1,0 +1,17 @@
+pane	agalan	1	:devops	0	:-	1	:/data/projects/17012-market-research/grandtop	0	vim	:/home/agalan/.lantern/bin/lantern
+vim electricity-market.md
+pane	agalan	1	:devops	0	:-	2	:/home/agalan	0	vim	:vim .vimrc
+pane	agalan	1	:devops	0	:-	3	:/home/agalan	0	vim	:vim aaa
+pane	agalan	1	:devops	0	:-	4	:/home/agalan	1	vim	:vim
+pane	agalan	2	:programing	1	:*	1	:/home/agalan	1	vim	:vim .vimrc
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#	2	:/home/agalan	0	bash	:
+window	agalan	1	0	:-	38ea,79x50,0,0[79x25,0,0,0,79x12,0,26,6,79x5,0,39,7,79x5,0,45,8]
+window	agalan	2	1	:*	ac9e,79x50,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:#	99c0,80x24,0,0[80x21,0,0,4,80x2,0,22,5]
+state	agalan	

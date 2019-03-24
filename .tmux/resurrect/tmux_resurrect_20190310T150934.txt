@@ -1,0 +1,18 @@
+pane	0	1	:vim	0	:#	1	:/data/rw2/doc	1	vim	:vim network.md
+pane	0	2	:man	0	:	1	:/home/agalan	1	man	:man -K VLAN
+pane	0	3	:bash	0	:	1	:/home/agalan	1	bash	:
+pane	0	3	:bash	0	:	2	:/home/agalan	0	bash	:
+pane	0	4	:man	0	:	1	:/data/rw1/scripts	1	man	:man avahi.hosts
+pane	0	5	:bash	0	:-	1	:/home/agalan	1	bash	:
+pane	0	6	:sudo	1	:*	1	:/etc/avahi	1	sudo	:sudo vim hosts
+pane	3	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+pane	4	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+window	0	1	0	:#	bc9d,79x16,0,0,0
+window	0	2	0	:	bc9e,79x16,0,0,1
+window	0	3	0	:	6e79,79x16,0,0[79x9,0,0,5,79x6,0,10,6]
+window	0	4	0	:	bca4,79x16,0,0,7
+window	0	5	0	:-	5e7f,79x16,0,0,10
+window	0	6	1	:*	5670,104x21,0,0,11
+window	3	1	1	:*	bca1,79x16,0,0,4
+window	4	1	1	:*	bc65,42x36,0,0,8
+state	0	

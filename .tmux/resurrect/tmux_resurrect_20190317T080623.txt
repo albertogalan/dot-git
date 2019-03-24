@@ -1,0 +1,20 @@
+pane	agalan	1	:devops	0	:	1	:/home/agalan/Downloads	0	mpv	:/home/agalan/.lantern/bin/lantern
+mpv [TorrentCounter.to].Lucy.2014.1080p.BluRay.x264.[1.2GB].mp4
+mpv [TorrentCounter.to].Lucy.2014.1080p.BluRay.x264.[1.2GB].mp4
+mpv [TorrentCounter.to].Lucy.2014.1080p.BluRay.x264.[1.2GB].mp4
+mpv [TorrentCounter.to].Lucy.2014.1080p.BluRay.x264.[1.2GB].mp4
+pane	agalan	1	:devops	0	:	2	:/data/databases/raw/json	1	bash	:
+pane	agalan	2	:programing	0	:	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#-	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#-	2	:/home/agalan	0	bash	:
+pane	agalan	6	:vim	1	:*	1	:/data/src/api	1	vim	:vim /home/agalan/.vimrc
+window	agalan	1	0	:	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:	b57e,106x61,0,0,1
+window	agalan	3	0	:	b57f,106x61,0,0,2
+window	agalan	4	0	:	b580,106x61,0,0,3
+window	agalan	5	0	:#-	7fd7,106x61,0,0[106x40,0,0,4,106x20,0,41,5]
+window	agalan	6	1	:*	b584,106x61,0,0,7
+state	agalan	

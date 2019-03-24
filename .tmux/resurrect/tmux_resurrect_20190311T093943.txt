@@ -1,0 +1,9 @@
+pane	agalan	1	:devops	0	:#-	1	:/data/projects/17012-market-research/grandtop	0	vim	:/home/agalan/.lantern/bin/lantern
+vim dubai.md
+pane	agalan	1	:devops	0	:#-	2	:/data/projects/17012-market-research/grandtop/lists	1	vim	:vim laboratory-test-check.md
+pane	agalan	2	:vim	1	:*	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim transformer-tests.md
+pane	agalan	3	:bash	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+window	agalan	1	0	:#-	7370,64x50,0,0[64x25,0,0,0,64x24,0,26,6]
+window	agalan	2	1	:*	a9e5,64x50,0,0,8
+window	agalan	3	0	:	a9e6,64x50,0,0,9
+state	agalan	

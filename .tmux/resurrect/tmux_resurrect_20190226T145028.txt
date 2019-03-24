@@ -1,0 +1,18 @@
+pane	0	1	:vim	1	:*	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim intrograndtop.md
+pane	2	1	:bash	1	:*	1	:/data/projects/17012-market-research/grandtop/genaro-information	0	bash	:
+pane	2	1	:bash	1	:*	2	:/data/projects/17012-market-research/grandtop/genaro-information	1	bash	:
+pane	agalan	1	:devops	1	:*	1	:/data/src/devops/roles	1	bash	:
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#-	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#-	2	:/home/agalan	0	bash	:
+window	0	1	1	:*	c09d,90x18,0,0,0
+window	2	1	1	:*	bb03,39x50,0,0[39x25,0,0,8,39x24,0,26,9]
+window	agalan	1	1	:*	c69f,79x47,0,0,2
+window	agalan	2	0	:#	b260,80x24,0,0,3
+window	agalan	3	0	:#	b261,80x24,0,0,4
+window	agalan	4	0	:#	b262,80x24,0,0,5
+window	agalan	5	0	:#-	99d1,80x24,0,0[80x21,0,0,6,80x2,0,22,7]
+state	0	

@@ -1,0 +1,17 @@
+pane	1	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+pane	agalan	1	:devops	0	:-	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim dekra.md
+pane	agalan	1	:devops	0	:-	2	:/data/projects/17012-market-research/grandtop	0	vim	:vim elpro.md
+pane	agalan	2	:programing	1	:*	1	:/data/projects/17012-market-research/grandtop/certification-organism	1	vim	:vim acreditation.md
+pane	agalan	2	:programing	1	:*	2	:/data/projects/17012-market-research/grandtop/certification-organism	0	vim	:vim acreditation-body.md
+pane	agalan	2	:programing	1	:*	3	:/data/projects/17012-market-research/grandtop/certification-organism	0	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:	1	:/etc	1	bash	:
+pane	agalan	5	:logs	0	:	2	:/home/agalan	0	bash	:
+window	1	1	1	:*	c0a3,90x18,0,0,6
+window	agalan	1	0	:-	8e41,79x48,0,0[79x24,0,0,0,79x23,0,25,7]
+window	agalan	2	1	:*	0e5a,79x48,0,0[79x29,0,0,1,79x9,0,30,8,79x8,0,40,9]
+window	agalan	3	0	:	ac9f,79x50,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:	52d0,79x48,0,0[79x29,0,0,4,79x18,0,30,5]
+state	agalan	

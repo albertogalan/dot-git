@@ -1,0 +1,19 @@
+pane	1	1	:bash	1	:*	1	:/data/src/tornae/leads	1	bash	:
+pane	agalan	1	:devops	1	:*	1	:/data/src/tornae/Suppliers/Grandtop/standards	1	bash	:
+pane	agalan	2	:programing	0	:-	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	4	:op2	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:/home/agalan/.lantern/bin/lantern
+pane	agalan	5	:vim	0	:	1	:/data/projects/17012-market-research/grandtop/datacollection	1	vim	:vim datacollection.md
+pane	agalan	6	:bash	0	:	1	:/data/src/tornae/leads/www.astoras.com.tr	1	bash	:
+pane	agalan	6	:bash	0	:	2	:/home/agalan/Downloads/learn/instrument-transformer (deleted)	0	bash	:
+pane	agalan	7	:bash	0	:	1	:/data/databases/raw/json	0	bash	:
+pane	agalan	7	:bash	0	:	2	:/data/src/restapi	1	bash	:man node
+window	1	1	1	:*	594f,159x50,0,0,10
+window	agalan	1	1	:*	c8dd,89x57,0,0,0
+window	agalan	2	0	:-	c8de,89x57,0,0,1
+window	agalan	3	0	:	c8df,89x57,0,0,2
+window	agalan	4	0	:	c8e0,89x57,0,0,3
+window	agalan	5	0	:	c8e1,89x57,0,0,4
+window	agalan	6	0	:	2cfb,89x57,0,0[89x31,0,0,7,89x25,0,32,11]
+window	agalan	7	0	:	9370,89x57,0,0[89x29,0,0,8,89x27,0,30,9]
+state	agalan	

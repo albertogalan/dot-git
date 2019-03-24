@@ -1,0 +1,18 @@
+pane	agalan	1	:devops	0	:-	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim keywords.md
+/home/agalan/.lantern/bin/lantern
+mpv --sub-font-size=16 4.mp4
+mpv --sub-font-size=16 4.mp4
+pane	agalan	1	:devops	0	:-	2	:/data/projects/17012-market-research/grandtop	0	vim	:vim sixsigma.md
+pane	agalan	2	:programing	1	:*	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim elpro.md
+pane	agalan	2	:programing	1	:*	2	:/data/projects/17012-market-research/grandtop	0	vim	:vim normatives.md
+pane	agalan	3	:op1	0	:	1	:/home/agalan/Downloads	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#	2	:/home/agalan	0	bash	:
+window	agalan	1	0	:-	fe12,88x50,0,0[88x25,0,0,0,88x24,0,26,6]
+window	agalan	2	1	:*	eaf2,60x50,0,0[60x25,0,0,1,60x24,0,26,7]
+window	agalan	3	0	:	ac5f,88x50,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:#	66a2,69x50,0,0[69x34,0,0,4,69x15,0,35,5]
+state	agalan	

@@ -1,0 +1,46 @@
+pane	1	1	:bash	0	:	1	:/data/src/tornae/Suppliers/Grandtop/_Quotations/冲击电流报价单	1	bash	:
+pane	1	2	:bash	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	1	1	:bash	0	:	1	:/data/src/tornae/Suppliers/Grandtop/_Quotations/冲击电流报价单	1	bash	:
+pane	1	2	:bash	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	1	3	:bash	0	:	1	:/data/projects/19049-sdp-india	1	bash	:
+pane	1	4	:python	1	:*	1	:/data/src/tornae/Suppliers/Grandtop/_Quotations	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.ixbPVK /data/src/tornae/Suppliers/Grandtop
+pane	1	3	:bash	0	:	1	:/data/projects/19049-sdp-india	1	bash	:
+pane	1	5	:bash	0	:-	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	1	4	:python	1	:*	1	:/data/src/tornae/Suppliers/Grandtop/_Quotations	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.ixbPVK /data/src/tornae/Suppliers/Grandtop
+pane	1	5	:bash	0	:-	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	1	:devops	0	:	1	:/data/projects/19049-sdp-india	1	bash	:/home/agalan/.lantern/bin/lantern
+pane	agalan	1	:devops	0	:	1	:/data/projects/19049-sdp-india	1	bash	:/home/agalan/.lantern/bin/lantern
+pane	agalan	2	:programing	0	:	1	:/data/src	1	bash	:
+pane	agalan	2	:programing	0	:	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:-	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:-	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	1	:*	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	1	:*	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	1	:*	2	:/home/agalan	0	bash	:
+window	1	1	0	:	c0a3,90x18,0,0,6
+window	1	2	0	:	c0a5,90x18,0,0,8
+window	1	3	0	:	c0a6,90x18,0,0,9
+window	1	4	1	:*	607f,90x18,0,0,10
+window	1	5	0	:-	6080,90x18,0,0,11
+window	agalan	1	0	:	c01d,70x18,0,0,0
+window	agalan	2	0	:	c01e,70x18,0,0,1
+window	agalan	3	0	:	c01f,70x18,0,0,2
+window	agalan	4	0	:-	c020,70x18,0,0,3
+window	agalan	5	1	:*	a314,70x61,0,0[70x37,0,0,4,70x23,0,38,5]
+pane	agalan	5	:logs	1	:*	2	:/home/agalan	0	bash	:
+window	1	1	0	:	c0a3,90x18,0,0,6
+window	1	2	0	:	c0a5,90x18,0,0,8
+window	1	3	0	:	c0a6,90x18,0,0,9
+window	1	4	1	:*	607f,90x18,0,0,10
+window	1	5	0	:-	6080,90x18,0,0,11
+window	agalan	1	0	:	c01d,70x18,0,0,0
+window	agalan	2	0	:	c01e,70x18,0,0,1
+window	agalan	3	0	:	c01f,70x18,0,0,2
+window	agalan	4	0	:-	c020,70x18,0,0,3
+window	agalan	5	1	:*	a314,70x61,0,0[70x37,0,0,4,70x23,0,38,5]
+state	1	agalan
+state	1	agalan

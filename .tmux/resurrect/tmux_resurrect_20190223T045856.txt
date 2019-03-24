@@ -1,0 +1,56 @@
+pane	1	1	:bash	0	:#	1	:/data/rw2/learn/xuetangx/美国介绍	1	bash	:
+pane	1	1	:bash	0	:#	1	:/data/rw2/learn/xuetangx/美国介绍	1	bash	:
+pane	1	1	:bash	0	:#	2	:/data/rw2/learn/xuetangx/美国介绍	0	bash	:
+pane	1	1	:bash	0	:#	2	:/data/rw2/learn/xuetangx/美国介绍	0	bash	:
+pane	1	1	:bash	0	:#	3	:/home/agalan/.config/mpv/scripts	0	vim	:vim trans.sh
+pane	1	1	:bash	0	:#	3	:/home/agalan/.config/mpv/scripts	0	vim	:vim trans.sh
+pane	1	2	:bash	0	:	1	:/home/agalan	0	bash	:
+pane	1	2	:bash	0	:	1	:/home/agalan	0	bash	:
+pane	1	2	:bash	0	:	2	:/home/agalan	0	vim	:vim .Xresources
+pane	1	2	:bash	0	:	2	:/home/agalan	0	vim	:vim .Xresources
+pane	1	2	:bash	0	:	3	:/usr/share/fonts/truetype/noto	1	bash	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.FzSrYi /usr/share/fonts/truetype/noto
+pane	1	2	:bash	0	:	3	:/usr/share/fonts/truetype/noto	1	bash	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.FzSrYi /usr/share/fonts/truetype/noto
+pane	1	3	:bash	0	:-	1	:/usr/local/share/fonts	0	bash	:
+pane	1	3	:bash	0	:-	1	:/usr/local/share/fonts	0	bash	:
+pane	1	3	:bash	0	:-	2	:/home/agalan	1	bash	:
+pane	1	3	:bash	0	:-	2	:/home/agalan	1	bash	:
+pane	1	4	:sudo	1	:*	1	:/home/agalan	1	sudo	:sudo vim /etc/fonts/conf.d/69-language-selector-zh-cn.conf
+pane	1	4	:sudo	1	:*	1	:/home/agalan	1	sudo	:sudo vim /etc/fonts/conf.d/69-language-selector-zh-cn.conf
+pane	2	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+pane	2	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+pane	agalan	1	:devops	1	:*	1	:/data/src/devops/roles	1	bash	:
+pane	agalan	1	:devops	1	:*	1	:/data/src/devops/roles	1	bash	:
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#-	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#-	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#-	2	:/home/agalan	0	bash	:
+pane	agalan	5	:logs	0	:#-	2	:/home/agalan	0	bash	:
+window	1	1	0	:#	ebd9,83x61,0,0[83x30,0,0,6,83x15,0,31,7,83x14,0,47,8]
+window	1	2	0	:	b7fd,125x61,0,0[125x30,0,0,9,125x15,0,31,10,125x14,0,47,14]
+window	1	3	0	:-	098e,125x61,0,0[125x30,0,0,11,125x30,0,31,13]
+window	1	4	1	:*	5af4,125x61,0,0,15
+window	1	1	0	:#	ebd9,83x61,0,0[83x30,0,0,6,83x15,0,31,7,83x14,0,47,8]
+window	2	1	1	:*	5821,83x61,0,0,12
+window	agalan	1	1	:*	c75d,86x57,0,0,0
+window	1	2	0	:	b7fd,125x61,0,0[125x30,0,0,9,125x15,0,31,10,125x14,0,47,14]
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	1	3	0	:-	098e,125x61,0,0[125x30,0,0,11,125x30,0,31,13]
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	1	4	1	:*	5af4,125x61,0,0,15
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	2	1	1	:*	5821,83x61,0,0,12
+window	agalan	5	0	:#-	99c0,80x24,0,0[80x21,0,0,4,80x2,0,22,5]
+window	agalan	1	1	:*	c75d,86x57,0,0,0
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:#-	99c0,80x24,0,0[80x21,0,0,4,80x2,0,22,5]
+state	1	2
+state	1	2

@@ -1,0 +1,6 @@
+pane	agalan	1	:programing	0	:-	1	:/data/src/luc	1	bash	:
+pane	agalan	2	:op1	1	:*	1	:/data/src/luc/mibs/6.3mib/6.3mib/snmpv2	0	sudo	:sudo vim /etc/fonts/conf.d/69-language-selector-zh-cn.conf
+pane	agalan	2	:op1	1	:*	2	:/data/src/luc/mibs/6.3mib/6.3mib/snmpv2	1	bash	:
+window	agalan	1	0	:-	d01e,97x59,0,0,1
+window	agalan	2	1	:*	522f,97x59,0,0[97x29,0,0,2,97x29,0,30,8]
+state	agalan	

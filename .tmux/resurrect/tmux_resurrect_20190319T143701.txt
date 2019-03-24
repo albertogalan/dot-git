@@ -1,0 +1,20 @@
+pane	1	1	:bash	1	:*	1	:/data/src/tornae/leads	1	bash	:
+pane	agalan	1	:devops	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	2	:programing	0	:	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/home/agalan/Downloads	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.5lVRGb /home/agalan/Downloads/www.stdtransformer.com
+pane	agalan	4	:op2	0	:	1	:/data/projects/17012-market-research/grandtop	1	vim	:/home/agalan/.lantern/bin/lantern
+vim normatives.md
+pane	agalan	5	:vim	0	:-	1	:/data/projects/17012-market-research/grandtop/datacollection	1	vim	:vim datacollection.md
+pane	agalan	6	:bash	1	:*	1	:/data/src/tornae/leads/www.astoras.com.tr	0	bash	:
+pane	agalan	6	:bash	1	:*	2	:/home/agalan/Downloads/learn/instrument-transformer	1	bash	:
+pane	agalan	7	:bash	0	:	1	:/data/databases/raw/json	1	bash	:
+pane	agalan	7	:bash	0	:	2	:/data/src/restapi	0	bash	:man node
+window	1	1	1	:*	594f,159x50,0,0,10
+window	agalan	1	0	:	b63d,159x51,0,0,0
+window	agalan	2	0	:	b63e,159x51,0,0,1
+window	agalan	3	0	:#	b63f,159x51,0,0,2
+window	agalan	4	0	:	b640,159x51,0,0,3
+window	agalan	5	0	:-	a961,44x50,0,0,4
+window	agalan	6	1	:*	8ee5,79x50,0,0[79x27,0,0,7,79x22,0,28,11]
+window	agalan	7	0	:	8212,159x51,0,0[159x26,0,0,8,159x24,0,27,9]
+state	agalan	

@@ -1,0 +1,18 @@
+pane	agalan	1	:vim	0	:-	1	:/data/projects/17012-market-research/grandtop	1	vim	:vim transformer-tests.md
+pane	agalan	2	:bash	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	3	:bash	0	:	1	:/data/rw1/m1	1	bash	:
+pane	agalan	4	:bash	0	:	1	:/etc/cron.d	1	bash	:-bash
+pane	agalan	5	:vim	0	:	1	:/data/projects/19049-sdp-india	1	vim	:vim elpro.md
+pane	agalan	6	:python	0	:	1	:/data/src/tornae/Suppliers/Grandtop/products/catalogue	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.6mC2em /home/agalan
+pane	agalan	7	:bash	0	:	1	:/home/agalan	1	bash	:
+pane	agalan	8	:vim	1	:*	1	:/data/apps/sc/sh	1	vim	:vim phone_backup.sh
+pane	agalan	8	:vim	1	:*	2	:/data/apps/sc/sh	0	bash	:
+window	agalan	1	0	:-	a9e5,64x50,0,0,8
+window	agalan	2	0	:	a9e6,64x50,0,0,9
+window	agalan	3	0	:	551f,64x50,0,0,10
+window	agalan	4	0	:	5521,64x50,0,0,12
+window	agalan	5	0	:	5522,64x50,0,0,13
+window	agalan	6	0	:	5523,64x50,0,0,14
+window	agalan	7	0	:	5524,64x50,0,0,15
+window	agalan	8	1	:*	d146,64x50,0,0[64x25,0,0,16,64x24,0,26,19]
+state	agalan	

@@ -1,0 +1,22 @@
+pane	1	1	:bash	1	:*	1	:/home/agalan	1	bash	:
+pane	1	2	:vim	0	:#-	1	:/data/src/docs	1	vim	:vim docker.md
+pane	agalan	1	:devops	0	:-	1	:/data/src/overhand/devops/roles	0	vim	:vim -p ./playbook.yml ./inventory.yml
+pane	agalan	1	:devops	0	:-	2	:/data/src/overhand/devops/roles	1	bash	:
+pane	agalan	2	:op1	0	:	1	:/data/projects	1	nmcli	:nmcli device wifi list
+pane	agalan	2	:op1	0	:	2	:/home/agalan	0	nmcli	:nmcli device wifi list
+pane	agalan	3	:op2	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	4	:logs	0	:#	2	:/home/agalan	0	bash	:
+pane	agalan	5	:bash	0	:	1	:/home/agalan	1	bash	:
+pane	agalan	6	:~	1	:*	1	:/data/rw2/doc	1	ssh	:/home/agalan/.lantern/bin/lantern
+ssh trig001
+window	1	1	1	:*	6025,41x18,0,0,16
+window	1	2	0	:#-	6086,90x18,0,0,17
+window	agalan	1	0	:-	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:	6c55,106x61,0,0[106x30,0,0,2,106x30,0,31,9]
+window	agalan	3	0	:	b580,106x61,0,0,3
+window	agalan	4	0	:#	7fd7,106x61,0,0[106x40,0,0,4,106x20,0,41,5]
+window	agalan	5	0	:	b584,106x61,0,0,7
+window	agalan	6	1	:*	5af3,106x61,0,0,14
+state	agalan	

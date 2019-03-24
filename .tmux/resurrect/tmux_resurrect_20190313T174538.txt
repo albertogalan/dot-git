@@ -1,0 +1,16 @@
+pane	agalan	1	:devops	0	:	1	:/data/projects/17012-market-research/grandtop/datacollection	0	vim	:vim datacollection.md
+pane	agalan	1	:devops	0	:	2	:/data/projects/17012-market-research/grandtop/datacollection	1	bash	:
+pane	agalan	1	:devops	0	:	3	:/data/projects/17012-market-research/grandtop/lists	0	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.O7cBtb /data/projects/17012-market-research/grandtop/lists
+pane	agalan	2	:op1	0	:	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	3	:bash	1	:*	1	:/data/projects/17012-market-research/grandtop/lists	0	bash	:
+pane	agalan	3	:bash	1	:*	2	:/data/projects/17012-market-research/grandtop/datacollection	1	bash	:
+pane	agalan	4	:bash	0	:-	1	:/home/agalan/Downloads/pel.com.pk	1	bash	:
+pane	agalan	5	:python	0	:	1	:/home/agalan/Downloads	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.C257WJ /home/agalan
+pane	agalan	6	:python	0	:	1	:/home/agalan	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.mVAS75 /home/agalan
+window	agalan	1	0	:	d134,79x50,0,0[79x12,0,0,7,79x12,0,13,18,79x24,0,26,13]
+window	agalan	2	0	:	ac9f,79x50,0,0,2
+window	agalan	3	1	:*	8452,79x50,0,0[79x25,0,0,10,79x24,0,26,17]
+window	agalan	4	0	:-	5680,79x50,0,0,11
+window	agalan	5	0	:	5684,79x50,0,0,15
+window	agalan	6	0	:	5685,79x50,0,0,16
+state	agalan	

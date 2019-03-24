@@ -1,0 +1,16 @@
+pane	agalan	1	:devops	0	:	1	:/data/src/devops/roles	0	man	:man nmcli
+pane	agalan	1	:devops	0	:	2	:/home/agalan/.mozilla	1	bash	:/home/agalan/.lantern/bin/lantern
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#-	1	:/home/agalan	0	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#-	2	:/data/apps/sc/sh	1	python	:/usr/bin/python /home/agalan/.local/bin/coursera-dl -u info@albertogalan.com -p tillo18 tcp-ip-advanced
+pane	agalan	6	:vim	1	:*	1	:/data/rw2/doc	1	vim	:vim network.md
+window	agalan	1	0	:	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:#-	7fd7,106x61,0,0[106x40,0,0,4,106x20,0,41,5]
+window	agalan	6	1	:*	b6c4,118x61,0,0,7
+state	agalan	

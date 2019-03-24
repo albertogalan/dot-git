@@ -1,0 +1,20 @@
+pane	agalan	1	:devops	1	:*	1	:/data/projects/17012-market-research/grandtop/datacollection	1	vim	:vim datacollection.md
+pane	agalan	1	:devops	1	:*	2	:/data/projects/17012-market-research/grandtop/lists	0	bash	:
+pane	agalan	2	:op1	0	:-	1	:/data/projects/17012-market-research/grandtop	1	bash	:
+pane	agalan	3	:op2	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	4	:logs	0	:#	2	:/home/agalan	0	bash	:
+pane	agalan	5	:bash	0	:	1	:/data/src/tornae/Suppliers/Grandtop/standards	1	bash	:
+pane	agalan	6	:python	0	:	1	:/home/agalan/Downloads/pel.com.pk	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.iSaMbo /home/agalan
+pane	agalan	7	:bash	0	:	1	:/data/src/tornae/leads	1	bash	:
+pane	agalan	8	:python	0	:	1	:/home/agalan/Downloads	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.C257WJ /home/agalan
+window	agalan	1	1	:*	5ba5,75x50,0,0[75x25,0,0,7,75x24,0,26,13]
+window	agalan	2	0	:-	aa9f,75x50,0,0,2
+window	agalan	3	0	:	aaa0,75x50,0,0,3
+window	agalan	4	0	:#	9f30,75x50,0,0[75x34,0,0,4,75x15,0,35,5]
+window	agalan	5	0	:	557f,75x50,0,0,10
+window	agalan	6	0	:	5580,75x50,0,0,11
+window	agalan	7	0	:	5583,75x50,0,0,14
+window	agalan	8	0	:	5584,75x50,0,0,15
+state	agalan	

@@ -1,0 +1,17 @@
+pane	agalan	1	:devops	1	:*	1	:/home/agalan/Downloads/xx/www.microdiode.com	0	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.cUgw7g /home/agalan/Downloads/x
+pane	agalan	1	:devops	1	:*	2	:/data/projects/18036-wuhan/media/wuhan-fashion-center/2018-11-resize	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.tEhQzL /data/projects/18036-wuhan
+/usr/lib/firefox/firefox
+pane	agalan	2	:programing	0	:#-	1	:/home/agalan/Downloads/a	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.2uv3ES /home/agalan/Downloads/a
+/usr/bin/python3 /usr/local/bin/youtube-dl --sub-format srt --write-auto-sub --proxy http://127.0.0.1:33485 https://www.youtube.com/watch?v=K9QHTvJnGKg
+pane	agalan	2	:programing	0	:#-	2	:/home/agalan/Downloads/a	0	bash	:mpv bb.mkv
+-bash
+/home/agalan/.lantern/bin/lantern
+pane	agalan	3	:op1	0	:	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:	1	:/data/projects	1	bash	:
+pane	agalan	5	:bash	0	:	1	:/home/agalan/Downloads/x	1	bash	:
+window	agalan	1	1	:*	a8a8,212x62,0,0[212x31,0,0,0,212x30,0,32,6]
+window	agalan	2	0	:#-	d088,70x61,0,0[70x30,0,0,1,70x30,0,31,8]
+window	agalan	3	0	:	ae1f,70x61,0,0,2
+window	agalan	4	0	:	b580,106x61,0,0,3
+window	agalan	5	0	:	ae24,70x61,0,0,7
+state	agalan	

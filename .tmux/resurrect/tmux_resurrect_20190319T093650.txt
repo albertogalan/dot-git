@@ -1,0 +1,17 @@
+pane	agalan	1	:devops	0	:	1	:/data/src/devops/roles	1	bash	:
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:	1	:/data/projects/17012-market-research/grandtop	1	vim	:/home/agalan/.lantern/bin/lantern
+vim normatives.md
+pane	agalan	5	:vim	0	:	1	:/data/projects/17012-market-research/grandtop/datacollection	1	vim	:vim datacollection.md
+pane	agalan	6	:man	0	:-	1	:/home/agalan	0	bash	:
+pane	agalan	6	:man	0	:-	2	:/home/agalan	1	man	:man whois
+pane	agalan	7	:bash	1	:*	1	:/home/agalan/Downloads/www.astoras.com.tr	1	bash	:
+window	agalan	1	0	:	ac9d,79x50,0,0,0
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:	aca0,79x50,0,0,3
+window	agalan	5	0	:	aca1,79x50,0,0,4
+window	agalan	6	0	:-	3f37,79x50,0,0[79x25,0,0,5,79x24,0,26,6]
+window	agalan	7	1	:*	aca4,79x50,0,0,7
+state	agalan	

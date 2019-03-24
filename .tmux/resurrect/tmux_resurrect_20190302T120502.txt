@@ -1,0 +1,17 @@
+pane	agalan	1	:devops	0	:	1	:/data/src/fitness/devops/roles	0	vim	:vim -p ./playbook.yml ./inventory.yml
+pane	agalan	1	:devops	0	:	2	:/data/src/fitness/devops/roles	1	bash	:
+pane	agalan	2	:programing	0	:	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	1	:*	1	:/data/projects	1	bash	:
+pane	agalan	3	:op1	1	:*	2	:/home/agalan	0	bash	:
+pane	agalan	4	:op2	0	:-	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:#	1	:/home/agalan	1	tail	:tail -f /var/log/syslog
+grep --color=auto error
+pane	agalan	5	:logs	0	:#	2	:/home/agalan	0	bash	:
+pane	agalan	6	:bash	0	:#	1	:/home/agalan	1	bash	:
+window	agalan	1	0	:	ec4f,106x61,0,0[106x30,0,0,0,106x30,0,31,6]
+window	agalan	2	0	:	b57e,106x61,0,0,1
+window	agalan	3	1	:*	28ae,212x62,0,0[212x31,0,0,2,212x30,0,32,9]
+window	agalan	4	0	:-	b580,106x61,0,0,3
+window	agalan	5	0	:#	7fd7,106x61,0,0[106x40,0,0,4,106x20,0,41,5]
+window	agalan	6	0	:#	b584,106x61,0,0,7
+state	agalan	

@@ -1,0 +1,14 @@
+pane	agalan	1	:devops	1	:*	1	:/home/agalan/Downloads/0312	1	python	:/usr/bin/python -O /usr/bin/ranger --choosedir=/data/src/ebrain/src/server/data/tmp.kOFtDu /etc/cron.d
+/home/agalan/.lantern/bin/lantern
+pane	agalan	1	:devops	1	:*	2	:/etc/cron.daily	0	bash	:
+pane	agalan	2	:programing	0	:#	1	:/data/src	1	bash	:
+pane	agalan	3	:op1	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	4	:op2	0	:#	1	:/data/projects	1	bash	:
+pane	agalan	5	:logs	0	:-	1	:/home/agalan	1	bash	:
+pane	agalan	5	:logs	0	:-	2	:/home/agalan	0	bash	:
+window	agalan	1	1	:*	3f23,79x50,0,0[79x25,0,0,0,79x24,0,26,6]
+window	agalan	2	0	:#	b25e,80x24,0,0,1
+window	agalan	3	0	:#	b25f,80x24,0,0,2
+window	agalan	4	0	:#	b260,80x24,0,0,3
+window	agalan	5	0	:-	a7b2,79x50,0,0[79x34,0,0,4,79x15,0,35,5]
+state	agalan	
