@@ -1,0 +1,19 @@
+# /home/agalan/.config/tmuxinator/agalan.yml
+
+name: agalan
+root: ~/
+
+
+windows:
+  - devops:
+      root: /data/src/devops/roles
+      layout: main-horizontal
+      panes:
+        - ls 
+  - programing: 
+      root: /data/src
+  - op1:
+      root: /data/projects
+  - op2:
+      root: /data/projects
+ 
