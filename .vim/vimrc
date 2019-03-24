@@ -1,0 +1,223 @@
+
+
+
+set nocompatible              " be iMproved, required
+set showcmd 			" show command in status line
+set rtp+=~/.fzf
+set ic " ignore case to search
+syntax on
+filetype plugin on " necessary for nerdcommenter
+"set clipboard=unnamedplus "copy to clipboard
+let g:airline_theme='atomic'  " loat atomic airline / status bar theme
+
+
+call plug#begin('~/.vim/bundle')
+" let Vundle manage Vundle, required
+"Plugin 'VundleVim/Vundle.vim'
+
+" List of Plugins
+" add git diff:
+Plug 'airblade/vim-gitgutter'
+"Plug 'blindFS/vim-translator'
+"Plug 'echuraev/translate-shell.vim'
+Plug 'ketor/vim-baidu-translator'
+Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-dispatch'
+Plug 'christoomey/vim-tmux-runner'
+Plug 'sheerun/vim-polyglot'
+Plug 'pearofducks/ansible-vim'
+Plug 'vim-python/python-syntax'
+Plug 'easymotion/vim-easymotion'
+Plug 'davidhalter/jedi-vim'
+Plug 'maralla/completor.vim'
+Plug 'Shougo/unite.vim'  " to check
+Plug 'Quramy/vison'      " to check
+Plug 'scrooloose/nerdcommenter'
+"Plug 'tpope/vim-fugitive' " to use git commands -- check it 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Take a look
+" https://medium.com/@alejandrodnm/living-in-the-shell-6f7313355cee
+
+
+
+"Plug 'ingydotnet/yaml-vim'
+
+"Plug 'junegunn/gv.vim'     To try
+
+"Plug 'tpope/vim-tbone'
+"Plug 'benmills/vimux'
+let g:rspec_command = 'VtrSendCommandToRunner! rspec {spec}'
+call plug#end()
+
+
+" About vim ecosystem
+"let mapleader = "\ " 		" Leader comman
+
+" Remap save document
+nmap <c-s> :w<cr>
+
+" Upload arduino Leonardo 
+
+map <buffer> <F3> :<Esc>:w<CR>:!clear<CR>:!ino build -m leonardo<CR>:!ino upload<CR>: <Ins> <CR>
+
+
+" Automatic reload vim if .vimrc changes
+if has ('autocmd') " Remain compatible with earlier versions
+ augroup vimrc     " Source vim configuration upon save
+     autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded" . $MYVIMRC | redraw
+     autocmd! BufWritePost $MYGVIMRC if has('gui_running') | so % | echom "Reloaded " . $MYGVIMRC | endif | redraw 
+    augroup END
+endif " has autocmd))
+
+"Easy motion move to line
+map  ff <Plug>(easymotion-bd-jk)
+nmap ff <Plug>(easymotion-overwin-line)
+
+" fzf customization for Searching files
+
+" https://github.com/junegunn/fzf.vim
+" https://github.com/junegunn/fzf/wiki/Examples-(vim))
+" fzf Mapping select
+nmap <leader><tab> <plug>(fzf-maps-n)
+" fzf Open multiple files 
+nmap <leader><C-t> :call fzf#run({'sink': 'tabedit','down':'30%', 'options': '--multi --reverse'}) <CR>
+
+
+
+" Insert mode completion
+imap <c-x><c-k> <plug>(fzf-complete-word))
+
+
+" Translate Baidu
+let g:trans_bin = "~/.vim"
+let g:baidu_appid='20171026000090895'
+let g:baidu_secretKey='S2K2rKGRjudMRY4ZFUPI'
+vnoremap <silent> <C-T> :<C-u>Bdv<CR>
+nnoremap <silent> <C-T> :<C-u>Bdc<CR>
+nnoremap <Leader>bd :<C-u>Bdc<CR>
+vnoremap <Leader>bd :<C-u>Bdv<CR>
+
+" Git Commit
+" Constraints columns
+" https://csswizardry.com/2017/03/configuring-git-and-vim/
+set textwidth=80
+set colorcolumn=+1
+autocmd FileType gitcommit au CursorMovedI * call ModifyTextWidth()   
+" execute when cursor has moved, use for all files
+function! ModifyTextWidth()
+	if line('.') == 2
+	execute "normal! :1\<cr>gUU\<cr>:5\<cr>" 
+
+	endif
+	    if line('.') < 3               " if line number smaller than 5
+	     setlocal textwidth=50     " use high tw setting
+	   else
+	      setlocal textwidth=72      " Otherwise use normal textwidth
+      endif
+endfunction
+
+
+
+
+set colorcolumn=+1 "color when after limit
+
+" Commit changes in a file 
+noremap <Leader>zz :w<CR>:lcd %:p:h<CR>:!git add '%' && git commit<CR>:q!<CR>
+
+" Commit all changes in all modified files  
+noremap <Leader>za :w<CR>:lcd %:p:h<CR>:!git add -u && git commit<CR>:q!<CR>
+
+
+" Templates
+
+" Add sh to new files
+if has("autocmd")
+  augroup templates
+  autocmd BufNewFile *.sh 0r ~/.vim/templates/skeleton.sh
+  augroup END
+endif
+
+" Add snippets
+nnoremap <Leader>shh :.-1 read ~/.vim/snippets/helpsh
+
+
+
+"call vundle#end()
+"filetype on
+
+
+let g:gitgutter_enabled = 1
+let updatetime = 25
+"let g:gitgutter_git_args = '--git-dir="\$HOME/.config/dotgit/repo"'
+
+set statusline+=%F
+
+let g:gitgutter_enabled = 1
+
+" Easy tabulation
+map <TAB> <ESC>gt<CR> 
+map <S-TAB> <ESC>gT<CR> 
+map <C-p> <ESC>:gtab<CR>
+
+" Build command for test purposes
+" Use entr, makefile, dispach(asyncronous imput) to as a test environment
+" See more examples and combinations
+" https://unix.stackexchange.com/questions/7823/compiling-code-from-vim
+"map <C-b> <ESC>:w<CR>:!tmux run-shell -t 2 "./%"<CR><CR>
+map <C-b> <ESC>:w<CR>:Dispatch  "./%"<CR><CR>
+
+" execute last command on pane 2
+noremap <S-b> <ESC>:w<CR>:execute ':!tmux send-keys -t 2  C-c Enter "\!-1" Enter'<CR> 
+
+"if has("bc")
+noremap <Leader>bc :<ESC>:w<CR>:execute ':!tmux run-shell -t 2 "' .cmd . '"'
+noremap <Leader>bd :<ESC>:w<CR>:execute ':!tmux send-keys -t 2 "' .cmd . '" Enter' <ESC><CR><CR>
+"endif
+
+" Using vim rspec 
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+" Copy clipboard
+vmap <S-y> y <ESC>:call system("xclip -selection clipboard", @")<CR><CR>
+
+" High Light content
+augroup ansible_vim_fthosts
+  autocmd!
+  autocmd BufNewFile,BufRead hosts setfiletype yml
+augroup END
+
+
+" Use TAB to complete when typing words
+" plugin maralla/completor 
+function! Tab_Or_Complete() abort
+" If completor is already open the `tab` cycles through suggested completions.
+  if pumvisible()
+    return "\<C-N>"
+" If completor is not open and we are in the middle of typing a word then
+" `tab` opens completor menu.
+  elseif col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-R>=completor#do('complete')\<CR>"
+  else
+" If we aren't typing a word and we press `tab` simply do the normal `tab`
+    " action.
+    return "\<Tab>"
+  endif
+endfunction
+
+"" Use `tab` key to select completions.  Default is arrow keys.
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Use tab to trigger auto completion.  Default suggests completions as you type.
+let g:completor_auto_trigger = 0
+inoremap <expr> <Tab> Tab_Or_Complete()
+
+
+" use tabs in a definition
+let g:jedi#use_tabs_not_buffers = 1
+

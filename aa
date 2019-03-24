@@ -1,0 +1,39 @@
+Dear Luc Valette-EIS,
+
+I already configured  check_udp_flood command, template and service in Juniper Host.
+
+This is the command:
+/usr/lib/nagios/plugins/check_snmp -C $_SERVICECOMMUNITY$  -H $HOSTADDRESS$ -o NETSCREEN-IDS-MIB::nsIdsAttkMonUdpFlood.1 --rate -w $_SERVICEWARNING$  -c $_SERVICECRITICAL$
+
+NETSCREEN-IDS-MIB::nsIdsAttkMonUdpFlood.1  is a counter that update when achieve thresold of
+NETSCREEN-IDS-MIB::nsIdsUdpFloodThresh.1 = INTEGER: 10000
+
+
+For multi-auth-fail  I found a OID NETSCREEN-INTERFACE-MIB::nsIfMonAuthFail  a counter if auth fail.
+For test this OID is working properly. Could you provide me:
+
+- Smtp server ( domain name )  and port  ?
+
+For large imcp I found an OID  NETSCREEN-IDS-MIB::nsIdsDetectIcmpLarge.1
+
+- To work with this functionality Juniper should be enable, actually is disable
+    (NETSCREEN-IDS-MIB::nsIdsDetectIcmpFrag.1  ==  disable )
+     Could you activate?
+
+Kipitapp service team.
+
+Alberto Galan
+
+
+
+PROTECTZONEID=$(/usr/lib/plugins/protectzoneid.sh $_ZONENAME$ $HOSTADDRESS$ $_SERVICECOMMUNITY$) &&  /usr/lib/nagios/plugins/check_snmp -C $_SERVICECOMMUNITY$  -H $HOSTADDRESS$ -o NETSCREEN-IDS-MIB::nsIdsAttkMonUdpFlood.$PROTECTZONEID --rate -w $_SERVICEWARNING$ -c $_SERVICECRITICAL$
+
+/usr/lib/nagios/plugins/check_snmp -C community  -H 192.168.7.2 -o NETSCREEN-IDS-MIB::nsIdsAttkMonUdpFlood.$PROTECTZONEID --rate -w 2 -c 2
+
+
+
+/usr/lib/nagios/plugins/check_snmp -C $_SERVICECOMMUNITY$  -H $HOSTADDRESS$ -o NETSCREEN-IDS-MIB::nsIdsAttkMonUdpFlood.1 --rate -w $_SERVICEWARNING$ -c $_SERVICECRITICAL$
+
+/usr/lib/nagios/plugins/check_centreon_snmp_traffic -v 2 --64-bits -H $HOSTADDRESS$ -C $_SERVICECOMMUNITY$ -i $_SERVICEINTERFACE$ -w $_SERVICEWARNING$ -c $_SERVICECRITICAL$
+
+
