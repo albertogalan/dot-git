@@ -1,6 +1,3 @@
-
-
-
 set nocompatible              " be iMproved, required
 set showcmd 			" show command in status line
 set rtp+=~/.fzf
@@ -140,7 +137,9 @@ if has("autocmd")
 endif
 
 " Add snippets
-nnoremap <Leader>shh :.-1 read ~/.vim/snippets/helpsh
+nnoremap <Leader>shh :.-1 read ~/.vim/snippets/shhelp.sh
+nnoremap <Leader>pyc :.-1 read ~/.vim/snippets/pyclass.py
+nnoremap <Leader>pya :.-1 read ~/.vim/snippets/pyargs.py
 
 
 
